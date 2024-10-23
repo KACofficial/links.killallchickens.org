@@ -1,4 +1,4 @@
-# links
+# links.killallchickens.org
 
 ## Project setup
 ```
@@ -20,5 +20,5 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Note(s) for self
+- use `./build_and_deploy.sh` to both deploy to github and firebase

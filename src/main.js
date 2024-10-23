@@ -1,4 +1,10 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import { createApp } from "vue";
+import App from "./App.vue";
+import router from "./router";
 
-createApp(App).mount('#app')
+router.beforeEach((to, _, next) => {
+  document.title = to.meta.title || "Links";
+  next();
+});
+
+createApp(App).use(router).mount("#app");
