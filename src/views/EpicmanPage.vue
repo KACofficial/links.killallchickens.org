@@ -35,6 +35,12 @@ export default {
                     onclick: () => this.openLink("https://github.com/KACofficial")
                 },
                 {
+                    image: require('@/assets/users/Epicman212/links/twitch.png'),
+                    title: "My Twitch!",
+                    desc: "I go live sometimes! Mainly programming.",
+                    onclick: () => this.openLink("https://www.twitch.tv/epicman21221")
+                },
+                {
                     image: require('@/assets/users/Epicman212/links/hn.png'),
                     title: "Join Hackers’ Nexus!",
                     desc: "Dive into the world of ethical hacking, capture the flags (CTFs), and programming challenges.",
