@@ -23,5 +23,6 @@ pnpm-debug.log*
 *.sw?
 
 # firebase stuff
-
-*firebase*
+.firebase/
+.firebaserc
+firebase.json
