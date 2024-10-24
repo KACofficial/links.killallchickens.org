@@ -7,7 +7,7 @@ const routes = [
     path: "/",
     name: "Epicman212",
     component: EpicmanPage,
-    meta: { title: "Epicman212's Page" },
+    meta: { title: "Epicman212's Socials" },
   },
   {
     path: '/:pathMatch(.*)*',
