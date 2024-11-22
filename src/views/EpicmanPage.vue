@@ -24,7 +24,7 @@ export default {
             links: [
                 {
                     image: require('@/assets/users/Epicman212/pfp.png'),
-                    title: "My Youtube!",
+                    title: "My YouTube!",
                     desc: "Nothing there, yet. Might as well subscribe to stay updated 🤷‍♂️.",
                     onclick: () => this.openLink("https://www.youtube.com/channel/UCKxFry7mmwIBJl-Cwirw8pg")
                 },
